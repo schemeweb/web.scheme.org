@@ -28,6 +28,59 @@
     </ul>
   </header>
   <h1 id="logo">Scheme Web Dev</h1>
+  <h2>Scheme implementations in the browser</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Interpreter</th>
+      <th>Compiler</th>
+      <th>Target</th>
+      <th>Macros</th>
+      <th>Tail calls</th>
+      <th>call/cc</th>
+      <th>Libraries</th>
+    </tr>
+    <tr>
+      <td>BiwaScheme</td>
+      <td>Native JS</td>
+      <td>N/A</td>
+      <td>R<sup>7</sup>RS</td>
+      <td>define-macro</td>
+      <td>Full</td>
+      <td>Full?</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Chibi-Scheme</td>
+      <td>Emscripten</td>
+      <td>N/A</td>
+      <td>R<sup>7</sup>RS</td>
+      <td>syntax-rules (R<sup>7</sup>RS)</td>
+      <td>Full</td>
+      <td>Partial</td>
+      <td>R<sup>7</sup>RS</td>
+    </tr>
+    <tr>
+      <td>Gambit</td>
+      <td>Emscripten</td>
+      <td>To <kbd>.js</kbd></td>
+      <td>R<sup>7</sup>RS</td>
+      <td>syntax-rules (R<sup>5</sup>RS)</td>
+      <td>Full</td>
+      <td>Full</td>
+      <td>R<sup>7</sup>RS</td>
+    </tr>
+    <tr>
+      <td>Lips</td>
+      <td>Emscripten</td>
+      <td>N/A</td>
+      <td>R<sup>7</sup>RS</td>
+      <td>N/A</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+  </table>
   <hr>
   <p>The <code>schemeweb</code> mailing list (<a href=
   "https://srfi-email.schemers.org/schemeweb/">archives</a>,
